@@ -1,0 +1,678 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Tam Coc Sunset Homestay: A Haven of Peace and Sustainability</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+    margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-uiBlue { background-color: rgba(35, 131, 226, .07); }
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-translucentGray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="905d72f6-4658-441d-873d-73fe3833b98e" class="page sans"><header><h1 class="page-title"><strong>Tam Coc Sunset Homestay: A Haven of Peace and Sustainability</strong></h1><p class="page-description"></p></header><div class="page-body"><p id="d1c808ba-47ff-4648-854a-d63c4c6d1e14" class="">In the heart of Ninh Binh, Vietnam, lies Tam Coc Sunset Homestay, a sustainable aparthotel that promises a unique blend of tranquility, comfort, and eco-friendly living. This homestay, located 23 km from Bai Dinh Temple and 31 km from Phat Diem Cathedral, is a perfect retreat for those looking to explore the natural beauty and cultural heritage of Vietnam.</p><figure id="cd397a99-545d-454f-8301-0eb71feb5267" class="image"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeZcFUKtSBfpWVNZoBAUJJl71POWd4KUf0otTrhfCnAxMh6poYgYAzX6VUeZbvZOFxuGrdyyVNPcrKM7GaA6bZcdP3waVHhMIkX51pDigbo0peIDcZ1m70nwXmRCxYBCfOMmu5z4OXybereaPMtR0LLRgo1PCjgAdbIA8sGTy93_lXKWw4Z-zWph2L5-DZ/s1907/ngoai-that-tam-coc-sunset-homestay%20%283%29.jpg"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeZcFUKtSBfpWVNZoBAUJJl71POWd4KUf0otTrhfCnAxMh6poYgYAzX6VUeZbvZOFxuGrdyyVNPcrKM7GaA6bZcdP3waVHhMIkX51pDigbo0peIDcZ1m70nwXmRCxYBCfOMmu5z4OXybereaPMtR0LLRgo1PCjgAdbIA8sGTy93_lXKWw4Z-zWph2L5-DZ/s1907/ngoai-that-tam-coc-sunset-homestay%20%283%29.jpg"/></a></figure><h2 id="8ba75e5b-0f7f-453b-a099-be03d2711c1a" class=""><strong>Embracing Sustainability</strong></h2><p id="53087c3c-4dca-4ad9-b5d6-3722d441599b" class="">Tam Coc Sunset Homestay is committed to sustainability, having implemented 26 out of 29 sustainable measures. This commitment is evident in every aspect of the homestay, from waste recycling to the use of energy-efficient lighting. The homestay&#x27;s dedication to environmental stewardship ensures that your stay not only comforts but also contributes positively to the planet.</p><h3 id="0c19ccd1-d352-42bb-880a-45a434465d33" class=""><strong>Comfortable and Eco-Friendly Accommodations</strong></h3><p id="bc90d5c7-8b77-4259-b6b3-3508b3279dd7" class="">The homestay offers air-conditioned accommodations with amenities designed for comfort and convenience. Each unit includes:</p><ul id="e6384a63-76c9-409a-84d4-595c480d2c6d" class="bulleted-list"><li style="list-style-type:disc">Free WiFi with a speed of 44 Mbps, suitable for streaming and video calls.</li></ul><ul id="28f7f3a9-3281-425e-936f-5e19f062709a" class="bulleted-list"><li style="list-style-type:disc">A terrace, mountain views, and a seating area for relaxation.</li></ul><ul id="834f7802-9e56-4c1b-8cac-6493b516fd8e" class="bulleted-list"><li style="list-style-type:disc">Satellite flat-screen TV, a fully equipped kitchen with a fridge and minibar.</li></ul><ul id="159ef9e3-a5c9-4ff9-a3fb-03aab6b566fd" class="bulleted-list"><li style="list-style-type:disc">A private bathroom with a walk-in shower and slippers.</li></ul><ul id="f39038fc-91eb-4046-a874-859474106f10" class="bulleted-list"><li style="list-style-type:disc">A patio with an outdoor dining area and garden views.</li></ul><h3 id="72cb0a4b-94d5-46da-9155-fc2ddf9a5ac2" class=""><strong>Amenities for a Memorable Stay</strong></h3><p id="7315b116-b947-427c-a25f-d8d530a566a8" class="">Tam Coc Sunset Homestay provides a range of facilities to enhance your experience:</p><ul id="ae5248a0-5a8f-47b5-baea-14b85762070a" class="bulleted-list"><li style="list-style-type:disc">A snack bar and a minimarket for your daily needs.</li></ul><ul id="9a3c38b5-6351-4f56-b127-26b2748862f9" class="bulleted-list"><li style="list-style-type:disc">Facilities for guests with children, including a baby safety gate.</li></ul><ul id="2dc62bbb-2bb7-4fc6-bd86-9c8619ce66ca" class="bulleted-list"><li style="list-style-type:disc">Bicycle and car rental services to explore the surrounding areas.</li></ul><ul id="441938a5-d881-4452-9f21-0fae33c17984" class="bulleted-list"><li style="list-style-type:disc">A paid airport shuttle service for convenient transportation.</li></ul><figure id="e05686c7-ab09-440b-9123-c4755da51310" class="image"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilUIGmCuENLKybZUu_dCGYV6IXwd5sKBY1SMgDkJeaeGEvTtBi1gqfEGQ7ue9a6C0nBOJ0SNQCJBt827fzUTbPOT9xXfbt1Ga_n-wnbc9WJ2lK8uSqV9k3dvkowl8rBV8f9WeBewdl1mgYhP5XzvxkFEJpvibbVQ4pu7xn52eBKp-HelokdQJxIKBYtTY/s2560/noi-that-tam-coc-sunset-homestay%20%283%29.jpg"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilUIGmCuENLKybZUu_dCGYV6IXwd5sKBY1SMgDkJeaeGEvTtBi1gqfEGQ7ue9a6C0nBOJ0SNQCJBt827fzUTbPOT9xXfbt1Ga_n-wnbc9WJ2lK8uSqV9k3dvkowl8rBV8f9WeBewdl1mgYhP5XzvxkFEJpvibbVQ4pu7xn52eBKp-HelokdQJxIKBYtTY/s2560/noi-that-tam-coc-sunset-homestay%20%283%29.jpg"/></a></figure><h2 id="634a350e-8b9b-4572-b04e-0d4bedde8837" class=""><strong>Exploring the Local Area</strong></h2><p id="e56177c0-4a38-4886-a2ed-9efdad1d8d9e" class="">The homestay&#x27;s location is ideal for those wishing to immerse themselves in the local culture and natural beauty of Ninh Binh. It is conveniently located 7 km from Ninh Binh Stadium and 8.9 km from Thung Nham Bird Park Ecotourism. The peaceful setting outside Tam Coc is perfect for those seeking a serene escape, with easy access to local attractions.</p><h3 id="26b010bd-578e-4964-97ca-a2b92cdaead1" class=""><strong>Activities for Every Interest</strong></h3><p id="87953d95-cbcf-4945-9762-89e2b3ee9a7e" class="">Tam Coc Sunset Homestay caters to a variety of interests:</p><ul id="e78c2cbe-743f-46b5-ad24-e8dc4c0b3aef" class="bulleted-list"><li style="list-style-type:disc">Walking and bike tours to explore the local landscape and culture.</li></ul><ul id="5c5b5890-2007-4e37-b29d-8211f87afd2a" class="bulleted-list"><li style="list-style-type:disc">Proximity to key attractions like Cuc Phuong National Park and the ancient capital of Hoa Lu.</li></ul><ul id="86b1fbe9-217c-4fb5-b67f-561f06853aad" class="bulleted-list"><li style="list-style-type:disc">A variety of dining options, including family dinners, to savor local flavors.</li></ul><h2 id="d0898c6d-8698-4053-ba5f-64015fd382fc" class=""><strong>Guest Experiences: A Reflection of Excellence</strong></h2><p id="fbf37279-ec46-4ba9-b737-e3e5db10c265" class="">With an impressive rating of 8.8, guests consistently praise the homestay for its exceptional service, cleanliness, comfort, and value for money. The tranquil location, quality of meals, and the availability of bikes for exploration are particularly appreciated by guests.</p><h3 id="ef6f26e8-2354-41cd-9c9c-8b7a1e8df5cf" class=""><strong>Why Choose Tam Coc Sunset Homestay?</strong></h3><ul id="9a8916aa-bdca-41f6-b450-abe3da8c5e32" class="bulleted-list"><li style="list-style-type:disc"><strong>Sustainable Practices</strong>: A commitment to eco-friendly living with various sustainable measures.</li></ul><ul id="12452af3-1c25-40a6-a520-89f4f35c97a3" class="bulleted-list"><li style="list-style-type:disc"><strong>Comfort with a Conscience</strong>: Well-equipped rooms with modern amenities, set in a sustainable environment.</li></ul><ul id="748f62aa-c8ae-48c5-8c30-d62ea284b9c2" class="bulleted-list"><li style="list-style-type:disc"><strong>Ideal Location</strong>: Close to cultural and natural attractions, offering a mix of peace and exploration.</li></ul><ul id="0fb41514-20e6-468a-a202-f393bd6645b4" class="bulleted-list"><li style="list-style-type:disc"><strong>Personalized Service</strong>: Warm hospitality and services tailored to meet guest needs.</li></ul><figure id="83410dbd-eb6a-44c5-8c9c-f9b5c3e58462" class="image"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUCp2bzzuLEnvd03LJfxRAi-vGgsMFCwv2Idv3fITqRKuvk1BagROp23Q8zTvNJqgxx19SFDnRBJWItcYT2kTvvFjrXIRg_XMkIIBghr9yDWePaPZ4P1QMFIjjKpAbc8ov8XK7ItkZQyp4-xsHw4HxvZsh0I8PqYCpbLlBmZkGKstqVhXKJufCyEoKh0w/s2560/noi-that-tam-coc-sunset-homestay%20%288%29.jpg"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUCp2bzzuLEnvd03LJfxRAi-vGgsMFCwv2Idv3fITqRKuvk1BagROp23Q8zTvNJqgxx19SFDnRBJWItcYT2kTvvFjrXIRg_XMkIIBghr9yDWePaPZ4P1QMFIjjKpAbc8ov8XK7ItkZQyp4-xsHw4HxvZsh0I8PqYCpbLlBmZkGKstqVhXKJufCyEoKh0w/s2560/noi-that-tam-coc-sunset-homestay%20%288%29.jpg"/></a></figure><p id="e150ccb1-0fa9-43ea-9b72-e9e1e1789de6" class="">In summary, Tam Coc Sunset Homestay is more than just accommodation; it&#x27;s a destination that offers a harmonious blend of sustainable living, comfort, cultural immersion, and adventure. Whether you&#x27;re a solo traveler, with family, or a couple, this homestay promises an enriching and unforgettable experience in the beautiful Ninh Binh province of Vietnam.</p><h2 id="778d47fd-c305-4b83-b474-916d2c92c87b" class=""><strong>Contact to Booking</strong></h2><p id="cac73212-13e5-438a-8e46-9d4590ebf80d" class=""><strong>Tam Coc Sunset Homestay</strong></p><ul id="5ab04b3a-b002-4376-88ab-6e04a9df955a" class="bulleted-list"><li style="list-style-type:disc">Address: Hanh Cung, Ninh Thang, Hoa Lu, Ninh Binh</li></ul><ul id="f7c1f6ff-904d-4eb7-a6d7-2ddd98144c5a" class="bulleted-list"><li style="list-style-type:disc">Phone: 0376140303</li></ul><ul id="664c20ad-1b16-4aab-84ae-888ea5aeda1a" class="bulleted-list"><li style="list-style-type:disc">Email: tamcocsunsethomestay@gmail.com</li></ul><ul id="1958198f-a24b-45fa-9289-4d744825efde" class="bulleted-list"><li style="list-style-type:disc">Website: <a href="https://tamcocsunsethomestay.com/">https://tamcocsunsethomestay.com/</a></li></ul><ul id="6353209f-a082-4bfd-96de-5b7c32d6c10e" class="bulleted-list"><li style="list-style-type:disc">Google Map:<a href="https://www.google.com/maps?cid=13630179987910901892"> https://www.google.com/maps?cid=13630179987910901892</a></li></ul><ul id="c216095a-53df-4b11-9ab1-011433e0a292" class="bulleted-list"><li style="list-style-type:disc">Booking:<a href="https://www.booking.com/hotel/vn/sunset-homestay.vi.html"> https://www.booking.com/hotel/vn/sunset-homestay.vi.html</a></li></ul><ul id="a5c140bd-bee4-4fb8-9025-abfa807445e8" class="bulleted-list"><li style="list-style-type:disc">Agoda:<a href="https://www.google.com/maps?cid=13630179987910901892"> https://www.agoda.com/tam-coc-sunset-homestay/hotel/ninh-binh-vn.html</a></li></ul><p id="2c38d96f-2b7b-429c-a84b-5bc1cc4be956" class="">Search term: tam coc sunset homestay, tam coc homestay, homestay ninh binh, ninh binh homestay, nha nghi ninh binh, nha nghi tam coc</p><p id="2aa60174-47af-45a2-80ff-58851c9e9286" class="">Hashtag: #tamcocsunsethomestay #tamcochomestay, #nhanghitamcoc</p><h2 id="e0733cc8-93a3-4c95-8555-e9d349045a5e" class=""><strong>Connect on Social:</strong></h2><ul id="a41b6087-f82b-4423-8be3-ae069b9eb9e8" class="bulleted-list"><li style="list-style-type:disc">Facebook:<a href="https://www.facebook.com/tamcocsunsethomestay"> https://www.facebook.com/tamcocsunsethomestay</a></li></ul><ul id="e077fac4-20eb-448d-a85f-7354c8d1ed76" class="bulleted-list"><li style="list-style-type:disc">Twitter:<a href="https://twitter.com/tamcocsunset"> https://twitter.com/tamcocsunset</a></li></ul><ul id="0d7ec27e-ec0d-4908-9171-0b2d2503e2b9" class="bulleted-list"><li style="list-style-type:disc">LinkedIn:<a href="https://www.linkedin.com/company/tamcocsunsethomestay/"> https://www.linkedin.com/company/tamcocsunsethomestay/</a></li></ul><ul id="fdb637af-dbc9-46de-a538-60974e46ef2a" class="bulleted-list"><li style="list-style-type:disc">Instagram:<a href="https://www.instagram.com/tamcocsunsethomestay/"> https://www.instagram.com/tamcocsunsethomestay/</a></li></ul><ul id="b7bca030-e201-4c44-aa8f-eb70fc5067c9" class="bulleted-list"><li style="list-style-type:disc">Pinterest:<a href="https://www.pinterest.com/tamcocsunsethomestay/"> https://www.pinterest.com/tamcocsunsethomestay/</a></li></ul><ul id="bed24f87-ea8d-4173-86a8-5f3920a93cb0" class="bulleted-list"><li style="list-style-type:disc">YouTube:<a href="https://www.youtube.com/@TamCocSunsetHomestay"> https://www.youtube.com/@TamCocSunsetHomestay</a></li></ul><p id="1e16431a-a611-4706-b6a6-7bb3030166f4" class="">ID: /g/11st79p_xd</p>
+<center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4154.213247060594!2d105.95703907281123!3d20.21786200110239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31367b20c1742179%3A0xbd28207bb4114084!2sTam%20Coc%20Sunset%20Homestay!5e0!3m2!1svi!2s!4v1705807500167!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>
+</div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
